@@ -1,0 +1,63 @@
+.logo {
+        font-family: var(--comic);
+            font-size: 32px;
+                letter-spacing: 2px;
+                )}
+
+                .top-right {
+
+.stage {
+        position: relative;
+            overflow: hidden;
+}
+
+.view {
+        position: absolute;
+            inset: 0;
+                display: none    padding: 0 40px 32px 24px;
+}
+
+
+.headline {
+        position: absolute;
+            left: 10px;
+                top: 20px;
+                    z-index: 3;
+                        font-family: var(--comic);
+                            font-weight: 400;
+                                font-size: 84px;
+                                    line-height: 0.95;
+                                        letter-spacing: 2px;
+    text-shadow: 4px 4px 0 #fff;
+}
+
+.headline .hl {
+                                    }    box-shadow: var(--shadow);
+    color: var(--ink);
+        text-decoration: none;
+            font-size: 17px;
+                font-weight: 500;}
+
+                .pill:hover {
+                        transform: translateY(-2px);
+                }
+
+
+                }
+                    transition: transform 0.2s;
+    gap: 20px;
+            }
+
+            .slices {
+                    position: fixed;
+                        inset: 0;
+                            z-index: 100;
+                                display: flex;
+                                    overflow: hidden;
+                                        pointer-events: none;
+
+            }    .view {
+                        position: static;
+                                padding: 16px 20px 24px;
+                                
+            }
